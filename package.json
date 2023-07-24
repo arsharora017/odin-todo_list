@@ -5,13 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Arshdeep Arora",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.8.1",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "3.0.0",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
@@ -121,5 +129,8 @@
   "bugs": {
     "url": "https://github.com/arsharora017/odin-todo_list/issues"
   },
-  "homepage": "https://github.com/arsharora017/odin-todo_list#readme"
+  "homepage": "https://github.com/arsharora017/odin-todo_list#readme",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
 }
