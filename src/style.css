@@ -152,11 +152,13 @@ svg {
   --color-nav: #fafafa;
   --color-header: #db4c3f;
   --color-preview: #ffffff;
+  --hover-dark: #e5e5e5;
+  --radius: 5px;
 }
 
 body {
   font-family: "Montserrat", sans-serif, monospace;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
 }
 
 /* 
@@ -224,12 +226,12 @@ main {
   align-items: center;
   gap: 5px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: var(--radius);
   padding: 5px;
 }
 
-.nav-item:hover {
-  background-color: #db4c3f;
+.hover:hover {
+  background-color: var(--hover-dark);
 }
 
 .my-lists {
@@ -262,6 +264,7 @@ main {
   background: transparent;
   border: solid 2px transparent;
   font-size: 1.3rem;
+  border-radius: var(--radius);
 }
 
 /* 
@@ -271,5 +274,7 @@ main {
 .tasks-preview {
   background-color: var(--color-preview);
   width: 100vw;
-  height: 100vh;
+  min-height: 90vh;
+  padding: 30px 50px;
+  box-sizing: border-box;
 }
