@@ -9,11 +9,11 @@
     i,
     s,
     c,
-    d,
     l,
-    u,
+    d,
     p,
     f,
+    u,
     v = {
       426: (n, e, t) => {
         t.d(e, { Z: () => s });
@@ -23,7 +23,7 @@
           i = t.n(a)()(o());
         i.push([
           n.id,
-          '/* Meyer reset */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: "";\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n/* \n ******** MY Css Code Starts from here*****\n*/\n\nsvg {\n  height: 30px;\n}\n\n/* \n******CSS Variables *******\n*/\n\n:root {\n  --bg-color: rgb(217, 196, 196);\n}\n\nbody {\n  font-family: "Montserrat", sans-serif, monospace;\n  background-color: var(--bg-color);\n}\n\n/* \n********* Header ***********\n*/\n\nheader {\n  background-color: red;\n  padding-top: 15px;\n  padding-left: 15px;\n  display: flex;\n  height: 130px;\n  justify-content: start;\n}\n\nheader > div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\nheader > div > svg {\n  height: 60px;\n}\n\nheader > div > h1 {\n  font-size: 60px;\n}\n',
+          '/* Meyer reset */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: "";\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n/* \n ******** MY Css Code Starts from here*****\n*/\n\nsvg {\n  height: 30px;\n}\n\n/* \n******CSS Variables *******\n*/\n\n:root {\n  --bg-color: rgb(217, 196, 196);\n  --primary-dark: #333;\n  --primary-light: #eee;\n  --font-size1: 60px;\n  --font-size2: 20px;\n  --font-size3: 30px;\n  --font-color-light: #fff;\n  --color-nav: #fafafa;\n  --color-header: #db4c3f;\n  --color-preview: #ffffff;\n}\n\nbody {\n  font-family: "Montserrat", sans-serif, monospace;\n  background-color: var(--bg-color);\n}\n\n/* \n********* Header ***********\n*/\n\nheader {\n  background-color: var(--color-header);\n  padding-top: 15px;\n  padding-left: 15px;\n  display: flex;\n  height: 130px;\n  justify-content: start;\n  color: var(--font-color-light);\n}\n\nheader > div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\nheader > div > svg {\n  height: 60px;\n}\n\nheader > div > h1 {\n  font-size: var(--font-size1);\n}\n\n/* \n******** Main *****\n*/\n\nmain {\n  display: flex;\n}\n\n/* \n******* Nav Bar/ Sidebar *****\n*/\n\n.navbar {\n  width: 20vw;\n  font-size: var(--font-size2);\n  display: flex;\n  flex-direction: column;\n  padding-left: 25px;\n  padding-top: 35px;\n  /* height: 100vh; */\n  background-color: var(--color-nav);\n  padding-right: 20px;\n}\n\n.home {\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n  margin-bottom: 3rem;\n}\n\n.nav-item {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  gap: 5px;\n  cursor: pointer;\n  border-radius: 5px;\n  padding: 5px;\n}\n\n.nav-item:hover {\n  background-color: #db4c3f;\n}\n\n.my-lists {\n  display: flex;\n  flex-direction: column;\n}\n\n.my-lists > h2 {\n  font-size: var(--font-size3);\n  margin-bottom: 10px;\n}\n\n.add-list {\n  display: flex;\n  flex-direction: row;\n  justify-content: left;\n  align-items: center;\n  padding-left: 10px;\n  gap: 15px;\n}\n\n.add-list > svg {\n  height: 23px;\n}\n\n.add-list-btn {\n  font-family: "Alata", sans-serif;\n  margin: 5px 0;\n  height: auto;\n  background: transparent;\n  border: solid 2px transparent;\n  font-size: 1.3rem;\n}\n\n/* \n******Tasks Preview***\n*/\n\n.tasks-preview {\n  background-color: var(--color-preview);\n  width: 100vw;\n  height: 100vh;\n}\n',
           "",
         ]);
         const s = i;
@@ -60,30 +60,30 @@
                   var c = this[s][0];
                   null != c && (i[c] = !0);
                 }
-              for (var d = 0; d < n.length; d++) {
-                var l = [].concat(n[d]);
-                (r && i[l[0]]) ||
+              for (var l = 0; l < n.length; l++) {
+                var d = [].concat(n[l]);
+                (r && i[d[0]]) ||
                   (void 0 !== a &&
-                    (void 0 === l[5] ||
-                      (l[1] = "@layer"
-                        .concat(l[5].length > 0 ? " ".concat(l[5]) : "", " {")
-                        .concat(l[1], "}")),
-                    (l[5] = a)),
+                    (void 0 === d[5] ||
+                      (d[1] = "@layer"
+                        .concat(d[5].length > 0 ? " ".concat(d[5]) : "", " {")
+                        .concat(d[1], "}")),
+                    (d[5] = a)),
                   t &&
-                    (l[2]
-                      ? ((l[1] = "@media "
-                          .concat(l[2], " {")
-                          .concat(l[1], "}")),
-                        (l[2] = t))
-                      : (l[2] = t)),
+                    (d[2]
+                      ? ((d[1] = "@media "
+                          .concat(d[2], " {")
+                          .concat(d[1], "}")),
+                        (d[2] = t))
+                      : (d[2] = t)),
                   o &&
-                    (l[4]
-                      ? ((l[1] = "@supports ("
-                          .concat(l[4], ") {")
-                          .concat(l[1], "}")),
-                        (l[4] = o))
-                      : (l[4] = "".concat(o))),
-                  e.push(l));
+                    (d[4]
+                      ? ((d[1] = "@supports ("
+                          .concat(d[4], ") {")
+                          .concat(d[1], "}")),
+                        (d[4] = o))
+                      : (d[4] = "".concat(o))),
+                  e.push(d));
               }
             }),
             e
@@ -108,25 +108,25 @@
         function r(n, r) {
           for (var a = {}, i = [], s = 0; s < n.length; s++) {
             var c = n[s],
-              d = r.base ? c[0] + r.base : c[0],
-              l = a[d] || 0,
-              u = "".concat(d, " ").concat(l);
-            a[d] = l + 1;
-            var p = t(u),
-              f = {
+              l = r.base ? c[0] + r.base : c[0],
+              d = a[l] || 0,
+              p = "".concat(l, " ").concat(d);
+            a[l] = d + 1;
+            var f = t(p),
+              u = {
                 css: c[1],
                 media: c[2],
                 sourceMap: c[3],
                 supports: c[4],
                 layer: c[5],
               };
-            if (-1 !== p) e[p].references++, e[p].updater(f);
+            if (-1 !== f) e[f].references++, e[f].updater(u);
             else {
-              var v = o(f, r);
+              var v = o(u, r);
               (r.byIndex = s),
-                e.splice(s, 0, { identifier: u, updater: v, references: 1 });
+                e.splice(s, 0, { identifier: p, updater: v, references: 1 });
             }
-            i.push(u);
+            i.push(p);
           }
           return i;
         }
@@ -157,9 +157,9 @@
               var s = t(a[i]);
               e[s].references--;
             }
-            for (var c = r(n, o), d = 0; d < a.length; d++) {
-              var l = t(a[d]);
-              0 === e[l].references && (e[l].updater(), e.splice(l, 1));
+            for (var c = r(n, o), l = 0; l < a.length; l++) {
+              var d = t(a[l]);
+              0 === e[d].references && (e[d].updater(), e.splice(d, 1));
             }
             a = c;
           };
@@ -282,15 +282,15 @@
     (i = m(565)),
     (s = m.n(i)),
     (c = m(216)),
-    (d = m.n(c)),
-    (l = m(589)),
-    (u = m.n(l)),
-    (p = m(426)),
-    ((f = {}).styleTagTransform = u()),
-    (f.setAttributes = s()),
-    (f.insert = a().bind(null, "head")),
-    (f.domAPI = r()),
-    (f.insertStyleElement = d()),
-    e()(p.Z, f),
-    p.Z && p.Z.locals && p.Z.locals;
+    (l = m.n(c)),
+    (d = m(589)),
+    (p = m.n(d)),
+    (f = m(426)),
+    ((u = {}).styleTagTransform = p()),
+    (u.setAttributes = s()),
+    (u.insert = a().bind(null, "head")),
+    (u.domAPI = r()),
+    (u.insertStyleElement = l()),
+    e()(f.Z, u),
+    f.Z && f.Z.locals && f.Z.locals;
 })();

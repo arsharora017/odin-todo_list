@@ -143,6 +143,15 @@ svg {
 
 :root {
   --bg-color: rgb(217, 196, 196);
+  --primary-dark: #333;
+  --primary-light: #eee;
+  --font-size1: 60px;
+  --font-size2: 20px;
+  --font-size3: 30px;
+  --font-color-light: #fff;
+  --color-nav: #fafafa;
+  --color-header: #db4c3f;
+  --color-preview: #ffffff;
 }
 
 body {
@@ -155,12 +164,13 @@ body {
 */
 
 header {
-  background-color: red;
+  background-color: var(--color-header);
   padding-top: 15px;
   padding-left: 15px;
   display: flex;
   height: 130px;
   justify-content: start;
+  color: var(--font-color-light);
 }
 
 header > div {
@@ -174,5 +184,92 @@ header > div > svg {
 }
 
 header > div > h1 {
-  font-size: 60px;
+  font-size: var(--font-size1);
+}
+
+/* 
+******** Main *****
+*/
+
+main {
+  display: flex;
+}
+
+/* 
+******* Nav Bar/ Sidebar *****
+*/
+
+.navbar {
+  width: 20vw;
+  font-size: var(--font-size2);
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-top: 35px;
+  /* height: 100vh; */
+  background-color: var(--color-nav);
+  padding-right: 20px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 3rem;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-item:hover {
+  background-color: #db4c3f;
+}
+
+.my-lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-lists > h2 {
+  font-size: var(--font-size3);
+  margin-bottom: 10px;
+}
+
+.add-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-left: 10px;
+  gap: 15px;
+}
+
+.add-list > svg {
+  height: 23px;
+}
+
+.add-list-btn {
+  font-family: "Alata", sans-serif;
+  margin: 5px 0;
+  height: auto;
+  background: transparent;
+  border: solid 2px transparent;
+  font-size: 1.3rem;
+}
+
+/* 
+******Tasks Preview***
+*/
+
+.tasks-preview {
+  background-color: var(--color-preview);
+  width: 100vw;
+  height: 100vh;
 }
